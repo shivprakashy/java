@@ -4,7 +4,7 @@ import java.io.FileWriter;
 
 // generates identifier
 public class NextIdentifier {
-
+	// produce identifiers
 	private String nextIdentifier(char[] charset, String curIdentifier){
 		char[] prevIdentifier = curIdentifier.toCharArray();
 		char[] nextIdentifier= prevIdentifier.clone();
