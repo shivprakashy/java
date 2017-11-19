@@ -2,6 +2,7 @@ package string;
 import java.io.File;
 import java.io.FileWriter;
 
+// generates identifier
 public class NextIdentifier {
 
 	private String nextIdentifier(char[] charset, String curIdentifier){
